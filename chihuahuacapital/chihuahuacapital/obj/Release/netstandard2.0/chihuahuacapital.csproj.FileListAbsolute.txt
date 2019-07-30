@@ -1,0 +1,11 @@
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/bin/Release/netstandard2.0/chihuahuacapital.deps.json
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/bin/Release/netstandard2.0/chihuahuacapital.dll
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Release/netstandard2.0/Controls/IsBusyWebView.xaml.g.cs
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Release/netstandard2.0/MainPage.xaml.g.cs
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Release/netstandard2.0/Web.xaml.g.cs
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Release/netstandard2.0/chihuahuacapital.csproj.CoreCompileInputs.cache
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Release/netstandard2.0/chihuahuacapital.AssemblyInfoInputs.cache
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Release/netstandard2.0/chihuahuacapital.AssemblyInfo.cs
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Release/netstandard2.0/XamlC.stamp
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Release/netstandard2.0/chihuahuacapital.dll

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="chihuahuacapital.Controls.IsBusyWebView"
+             xmlns:renderers="clr-namespace:chihuahuacapital.CustomRenderers">
+    <ContentView.Content>
+        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <renderers:ExtendedWebView VerticalOptions="FillAndExpand" 
+                                       HorizontalOptions="FillAndExpand" 
+                                       x:Name="Browser"/>
+            <ActivityIndicator x:Name="Loading" 
+                               Color="#1E7FF2" 
+                               VerticalOptions="CenterAndExpand" 
+                               HorizontalOptions="CenterAndExpand" 
+                               HeightRequest="50"
+                               WidthRequest="50"
+                               IsRunning="true"/>
+        </Grid>
+    </ContentView.Content>
+</ContentView>

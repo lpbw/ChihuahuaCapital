@@ -1,0 +1,13 @@
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/bin/Debug/netstandard1.6/chihuahuacapital.deps.json
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/bin/Debug/netstandard1.6/chihuahuacapital.dll
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/bin/Debug/netstandard1.6/chihuahuacapital.pdb
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Debug/netstandard1.6/App.xaml.g.cs
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Debug/netstandard1.6/Controls/IsBusyWebView.xaml.g.cs
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Debug/netstandard1.6/MainPage.xaml.g.cs
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Debug/netstandard1.6/Web.xaml.g.cs
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Debug/netstandard1.6/chihuahuacapital.csproj.CoreCompileInputs.cache
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Debug/netstandard1.6/chihuahuacapital.AssemblyInfoInputs.cache
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Debug/netstandard1.6/chihuahuacapital.AssemblyInfo.cs
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Debug/netstandard1.6/XamlC.stamp
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Debug/netstandard1.6/chihuahuacapital.dll
+/Users/bwit/Projects/chihuahuacapital/chihuahuacapital/obj/Debug/netstandard1.6/chihuahuacapital.pdb

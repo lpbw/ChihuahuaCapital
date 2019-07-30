@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="3" android:versionName="1.0.3" package="com.municipio.capital" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="28" />
+	<!--for sony badge-->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<permission android:name="com.municipio.capital.permission.C2D.MESSAGE" android:protectionLevel="signature" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.INSTALL_LOCATION_PROVIDER" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-feature android:name="android.hardware.location" android:required="false" />
+	<uses-feature android:name="android.hardware.location.gps" android:required="true" />
+	<uses-feature android:name="android.hardware.location.network" android:required="true" />
+	<application android:label="Chihuahua Capital" android:icon="@drawable/icono">
+		<meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/icono" />
+		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" android:exported="false" />
+		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:exported="true" android:permission="com.google.c2dm.permission.SEND">
+			<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+			<action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+			<category android:name="com.municipio.capital" />
+		</receiver>
+	</application>
+</manifest>

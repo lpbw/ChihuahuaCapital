@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{C657BB41-8273-434E-8E8C-878785201EC3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="chihuahuacapital.iOS/Info.plist">
+    <Files>
+      <File FileName="chihuahuacapital.iOS/Info.plist" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="chihuahuacapital" expanded="True">
+            <Node name="chihuahuacapital" expanded="True" />
+            <Node name="chihuahuacapital.iOS" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>chihuahuacapital.Android/chihuahuacapital.Android.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.chihuahuacapital.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.5cd1036013b573eccb6407bfe138a9e7b29a19d2" />
+</Properties>

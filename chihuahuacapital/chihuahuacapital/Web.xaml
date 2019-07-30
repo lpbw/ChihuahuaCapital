@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="chihuahuacapital.Web"
+             xmlns:controls="clr-namespace:chihuahuacapital.Controls">
+         <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <controls:IsBusyWebView x:Name="Browser"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+</ContentPage>

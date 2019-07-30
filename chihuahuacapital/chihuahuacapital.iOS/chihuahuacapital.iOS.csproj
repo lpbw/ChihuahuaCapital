@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C657BB41-8273-434E-8E8C-878785201EC3}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>chihuahuacapital.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>chihuahuacapital.iOS</AssemblyName>
+    <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
+    <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+    <ReleaseVersion>1.0</ReleaseVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>Full</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignProvision>DevCapital</CodesignProvision>
+    <CodesignKey>iPhone Developer: Mario Alejandro Garcia Varela (ABT37NP6X8)</CodesignKey>
+    <Commandlineparameters></Commandlineparameters>
+    <RunWithWarnings>true</RunWithWarnings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DefineConstants></DefineConstants>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <CodesignProvision>VS: WildCard Development</CodesignProvision>
+    <CodesignProvision>VS: WildCard Development</CodesignProvision>
+    <CodesignKey>iPhone Developer: Miguel Lopez (7XLA48VNFR)</CodesignKey>
+    <RunWithWarnings>true</RunWithWarnings>
+    <DeviceSpecificBuild></DeviceSpecificBuild>
+    <MtouchDebug></MtouchDebug>
+    <IOSDebugOverWiFi></IOSDebugOverWiFi>
+    <IOSDebugOverWiFi></IOSDebugOverWiFi>
+    <ExternalConsole>false</ExternalConsole>
+    <Commandlineparameters></Commandlineparameters>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer: Miguel Lopez (7XLA48VNFR)</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+<RunCodeAnalysis>true</RunCodeAnalysis>  <CodesignProvision>3STA67HF28.com.chihuahua.*</CodesignProvision>
+<ExternalConsole>false</ExternalConsole>
+<CodesignExtraArgs></CodesignExtraArgs>
+<MtouchUseLlvm></MtouchUseLlvm>
+<Commandlineparameters></Commandlineparameters>
+<RunWithWarnings>true</RunWithWarnings>
+<MtouchNoSymbolStrip></MtouchNoSymbolStrip>
+<IOSDebugOverWiFi></IOSDebugOverWiFi>
+<MtouchProfiling></MtouchProfiling>
+<MtouchVerbosity>2</MtouchVerbosity>
+<MtouchVerbosity>2</MtouchVerbosity>
+<MtouchUseThumb></MtouchUseThumb>
+<MtouchEnableBitcode></MtouchEnableBitcode>
+<MtouchEnableSGenConc>false</MtouchEnableSGenConc>
+<IpaIncludeArtwork></IpaIncludeArtwork>
+<IpaPackageName></IpaPackageName>
+<IpaPackageName></IpaPackageName>
+<CrashReportingApiKey></CrashReportingApiKey>
+<CrashReportingEnabled>false</CrashReportingEnabled>
+<CodesignResourceRules></CodesignResourceRules>
+<MtouchLink>Full</MtouchLink>
+<MtouchI18n></MtouchI18n>
+<MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+<MtouchVerbosity>2</MtouchVerbosity>
+<MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+<MtouchLink>SdkOnly</MtouchLink>
+<MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+<MtouchFastDev>true</MtouchFastDev>
+<MtouchFloat32>true</MtouchFloat32>
+</PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <DefineConstants></DefineConstants>
+    <DefineConstants></DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARMv7, ARMv7s, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Distribution: Municipio de Chihuahua (3STA67HF28)</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+<RunCodeAnalysis>true</RunCodeAnalysis>  <MtouchFloat32></MtouchFloat32>
+<MtouchFloat32></MtouchFloat32>
+<CodesignProvision>provisioningchihuahua</CodesignProvision>
+<IOSDebuggerPort></IOSDebuggerPort>
+<OnDemandResourcesPrefetchOrder></OnDemandResourcesPrefetchOrder>
+<IpaPackageName>ipacapital</IpaPackageName>
+<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+<DeviceSpecificBuild>false</DeviceSpecificBuild>
+<IpaMetadata></IpaMetadata>
+<MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+<MtouchLink>SdkOnly</MtouchLink>
+<MtouchDebug>false</MtouchDebug>
+<MtouchEnableSGenConc>true</MtouchEnableSGenConc>
+<MtouchEnableSGenConc>true</MtouchEnableSGenConc>
+</PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Renderers\IosExtendedWebView.cs" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app40x40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app60X60.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app58X58.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app87X87.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app80X80.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app120X120.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app120X120-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app180X180.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app20X20.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app40x40-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app29X29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app58X58-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app40x40-2.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app80X80-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app76X76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app152X152.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app167X167.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app1024X1024.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app120X120-2.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono app180X180-1.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_1242X2688.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_828X1792.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_2688X1242.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_1792X828.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_1125X2436.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_2436X1125.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_1242X2208.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_750X1334.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_2208x1242.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_2048X2732.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_640X960.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_640X1136.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_768X1024.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_1536X2048.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_1024X768.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_2048X1536.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_320X480.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_640X960-1.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_640X1136-1.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_768X1004.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_1536X2008.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_768X1024-1.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_1536X2048-1.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_1024x748.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_2048X1496.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_1024X768-1.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_2048X1536-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\chihuahuacapital\chihuahuacapital.csproj">
+      <Project>{165E90B0-1565-4177-8892-E15FDAA62557}</Project>
+      <Name>chihuahuacapital</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Renderers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
+  </ItemGroup>
+</Project>
